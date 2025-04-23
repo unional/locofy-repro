@@ -1,2 +1,7 @@
 packages:
- - 'packages/*'
+  - packages/*
+
+onlyBuiltDependencies:
+  - '@locofy/cli'
+  - '@parcel/watcher'
+  - esbuild
